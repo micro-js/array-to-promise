@@ -17,15 +17,19 @@ Convert array to a promise.
 ```js
 var arrayToPromise = require('@micro-js/array-to-promise')
 
+arrayToPromise([1, Promise.resolve(2)]).then(function (res) {
+  res // => [1, 2]
+})
+
 ```
 
 ## API
 
-### arrayToPromise(arg)
+### arrayToPromise(array)
 
-- `arg` -
+- `array` - array of promises and non-promises
 
-**Returns:**
+**Returns:** array with all promises resolved
 
 ## License
 
