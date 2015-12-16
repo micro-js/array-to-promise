@@ -2,7 +2,7 @@
   "name": "@f/array-to-promise",
   "description": "Convert array to a promise.",
   "repository": "git://github.com/micro-js/array-to-promise.git",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
