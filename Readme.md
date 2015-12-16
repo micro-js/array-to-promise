@@ -10,12 +10,12 @@ Convert array to a promise.
 
 ## Installation
 
-    $ npm install @micro-js/array-to-promise
+    $ npm install @f/array-to-promise
 
 ## Usage
 
 ```js
-var arrayToPromise = require('@micro-js/array-to-promise')
+var arrayToPromise = require('@f/array-to-promise')
 
 arrayToPromise([1, Promise.resolve(2)]).then(function (res) {
   res // => [1, 2]
@@ -41,5 +41,5 @@ MIT
 [git-url]: https://github.com/micro-js/array-to-promise
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/array-to-promise.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/array-to-promise
+[npm-image]: https://img.shields.io/npm/v/@f/array-to-promise.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/array-to-promise
